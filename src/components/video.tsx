@@ -14,7 +14,6 @@ export const Video: React.FC = () => {
           duration={13000}
           triggerElement=".intro"
           triggerHook={0}
-          indicators={true}
           pin=".intro"
         >
           {(progress, event) => {
