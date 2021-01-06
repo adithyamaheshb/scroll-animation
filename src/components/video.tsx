@@ -20,7 +20,6 @@ export const Video: React.FC = () => {
             scene = event.target;
             if (scene) {
               scene.on('update', (e) => {
-                console.log('scene event', e.scrollPos);
                 scrollpos = e.scrollPos / 1000;
               });
               setInterval(() => {

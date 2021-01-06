@@ -1,12 +1,9 @@
 import React from 'react';
 import { Video } from './../components/video';
-import { TestVideo } from './../components/testvideo';
 
 const Home: React.FC = () => (
   <div className="container">
     <Video />
-    {/* <TestVideo /> */}
-
     <style jsx global>
       {`
         html,
